@@ -77,10 +77,10 @@ body {
   text-align: center;
 }
 .cover img{
-  width: 200px;
+  width: 300px;
 }
 .cover h1{
-  font-size: 2.5em;
+  font-size: 4em;
   font-weight: bold;
 }
 .lead{
@@ -114,4 +114,38 @@ body {
 }
 .social-container .fa-stack:hover .fa-stack-2x{
 color: #30292a;
+}
+
+@media (min-width: 1920px){
+  .cover img{
+    width: 400px;
+  }
+  .cover h1{
+    font-size: 5em;
+    font-weight: bold;
+  } 
+}
+@media (max-width: 768px){
+  .cover img{
+    width: 200px;
+  }
+  .cover h1{
+    font-size: 2.5em;
+    font-weight: bold;
+  } 
+}
+@media (max-width: 480px){
+  .cover img{
+    width: 150px;
+  }
+  .cover h1{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .inner p{
+    font-size: 1rem;
+  }  
+  .mastfoot p{
+    font-size: .75rem;
+  }
 }
